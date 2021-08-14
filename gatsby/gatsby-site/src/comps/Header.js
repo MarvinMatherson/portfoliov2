@@ -1,3 +1,4 @@
+import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import {Navbar, Nav, Container} from 'react-bootstrap';
 
@@ -6,7 +7,8 @@ const Header = () =>{
         <div>
             <Navbar bg="light" expand="lg">
             <Container>
-                <Navbar.Brand href="#">TheMarvin</Navbar.Brand>
+                <Navbar.Brand 
+                href="#"><StaticImage src= '../images/logo_large.png' className='logo' /> </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
             <Nav

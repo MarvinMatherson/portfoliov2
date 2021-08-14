@@ -28,8 +28,15 @@
 
 // 6. Page-specific styles
 @import
-  'pages/home';
+  'pages/hero',
+  'pages/intro',
+  'pages/projects',
+  'pages/languages';
 
 // 7. Themes
 @import
   'themes/default';
+
+// 8. Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@400;600&display=swap');
